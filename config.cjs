@@ -31,7 +31,7 @@ const config = {
   ],
   pwa: {
     consoleLogs: true,
-    oneSignalEnabled: false,
+    oneSignalEnabled: true,
     oneSignalConfig: {
       appId: "0e1d2ad5-8ee3-44f0-a92c-500d9452befc",
       allowLocalhostAsSecureOrigin: true
