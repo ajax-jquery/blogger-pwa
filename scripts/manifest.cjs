@@ -1,18 +1,18 @@
 const path = require("path");
 
 const getManifest = ({
-  name = "My App",
+  name = "Sabda Literasi Palu",
   version = "1.0",
   shortName = name,
-  description = name,
+  description = "Sabda Literasi merupakan tempat penjualan Ebook Berbahasa Indonesia terlengkap dengan harga dua kali lebih murah dan tersedia dalam bentuk PDF.",
   direction = "auto",
-  language = "en-US",
+  language = "id-ID",
   orientation = "any",
   startUrl = "/?utm_source=homescreen",
   scope = "/",
   display = "standalone",
   backgroundColor = "#fff",
-  themeColor = backgroundColor,
+  themeColor = "#f26926",
   serviceWorker = "./serviceworker.js",
   iconsPath = ".",
   screenshotsPath = ".",
