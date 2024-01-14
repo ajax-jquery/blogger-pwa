@@ -24,7 +24,7 @@ routes = [
   # pattern = "plus-ui.fineshopdesign.com/app/*"
   # Replace 'plus-ui.fineshopdesign.com' with your blogger subdomain and domain (domain name must be same as zone_name)
   # e.g.: pattern = "www.example.com/app/*"
-  { pattern = "sabdaliterasi.shop/app/*", zone_name = "pwa.sabdaliterasi.shop", custom_domain = false }
+  { pattern = "sabdaliterasi.shop/app/*", zone_name = "sabdaliterasi.shop", custom_domain = false }
 ]
 
 [env.production.vars]
