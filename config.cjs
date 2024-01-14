@@ -1,13 +1,13 @@
 /** @type {import("./types").Config} */
 const config = {
   version: "1.0",
-  name: "My Blog",
-  shortName: "My Blog",
-  description: "My blog description goes here...",
+  name: "Sabda Literasi Palu",
+  shortName: "Sabda Literasi Palu",
+  description: "Sabda Literasi merupakan tempat penjualan Ebook Berbahasa Indonesia terlengkap dengan harga dua kali lebih murah dan tersedia dalam bentuk PDF.",
   direction: "auto",
-  language: "en-US",
+  language: "id-ID",
   backgroundColor: "#fff",
-  themeColor: "#fff",
+  themeColor: "#f26926",
   display: "standalone",
   orientation: "any",
   scope: "/",
@@ -17,23 +17,23 @@ const config = {
   preferRelatedApplications: false,
   shortcuts: [
     {
-      name: "My Shortcut 1",
-      shortName: "My Shortcut 1",
-      description: "My Shortcut 1 description goes here...",
-      url: "/search/label/my-shortcut-1?utm_source=homescreen"
+      name: "Artike",
+      shortName: "Artikel",
+      description: "Kumpulan Artikel yang diterbitkan oleh sabdaliterasi palu dan akan update setiap harinya",
+      url: "/artikel/?utm_source=homescreen"
     },
     {
-      name: "My Shortcut 2",
-      shortName: "My Shortcut 2",
-      description: "My Shortcut 2 description goes here...",
-      url: "/search/label/my-shortcut-2?utm_source=homescreen"
+      name: "Produk",
+      shortName: "Produk",
+      description: "Kumpulan Artikel yang diterbitkan oleh sabdaliterasi palu dan akan update setiap harinya",
+      url: "/produk/?utm_source=homescreen"
     }
   ],
   pwa: {
     consoleLogs: true,
     oneSignalEnabled: false,
     oneSignalConfig: {
-      appId: "********-****-****-****-************",
+      appId: "0e1d2ad5-8ee3-44f0-a92c-500d9452befc",
       allowLocalhostAsSecureOrigin: true
     }
   }
